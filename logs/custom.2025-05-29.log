@@ -1,0 +1,315 @@
+2025-05-29 11:18:22 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 2324 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 11:18:22 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 11:18:22 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 11:18:28 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 6.41 seconds (process running for 7.083)
+2025-05-29 11:18:28 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 11:18:28 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 53 окошек на 2025-05-29 в 11-18
+2025-05-29 11:18:28 INFO  c.e.s.service.TimetableService - Удалены слоты до 2025-05-29 (не включительно): 48 записей
+2025-05-29 11:18:28 INFO  c.e.s.service.TimetableService - Итого создано 48 слотов
+2025-05-29 11:18:28 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T11:18:28.668256200
+2025-05-29 11:18:28 INFO  c.e.s.service.RequestService - Заявка с ID 98 изменена на статус 'DONE'.
+2025-05-29 11:18:28 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 11:30:00 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 11:30:00 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 6 окошек на 2025-05-29 в 11-30
+2025-05-29 12:00:00 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 7 окошек на 2025-05-29 в 12-00
+2025-05-29 12:00:00 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 12:19:54 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 9528 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 12:19:54 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 12:19:54 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 12:20:00 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 6.957 seconds (process running for 7.481)
+2025-05-29 12:20:00 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 7 окошек на 2025-05-29 в 12-20
+2025-05-29 12:20:00 INFO  c.e.s.service.TimetableService - Удалены слоты до 2025-05-29 (не включительно): 0 записей
+2025-05-29 12:20:00 INFO  c.e.s.service.TimetableService - Итого создано 0 слотов
+2025-05-29 12:20:00 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T12:20:00.634117600
+2025-05-29 12:20:00 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 12:20:00 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 12:20:11 INFO  c.e.s.controller.AdminController - Сотрудник с ID 2 успешно удалён.
+2025-05-29 12:28:28 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 13276 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 12:28:28 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 12:28:28 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 12:28:34 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 6.366 seconds (process running for 6.791)
+2025-05-29 12:29:08 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 13612 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 12:29:08 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 12:29:08 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 12:29:13 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 5.548 seconds (process running for 5.978)
+2025-05-29 12:29:14 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 0 окошек на 2025-05-29 в 12-29
+2025-05-29 12:29:14 INFO  c.e.s.service.TimetableService - Первый запуск генерации расписания. Генерация 15 рабочих дней с 2025-05-29
+2025-05-29 12:29:14 INFO  c.e.s.service.TimetableService - Первичная генерация завершена. Создано 0 слотов
+2025-05-29 12:29:14 INFO  c.e.s.service.TimetableService - Итого создано 0 слотов
+2025-05-29 12:29:14 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T12:29:14.057397400
+2025-05-29 12:29:14 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 12:29:14 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 12:29:47 INFO  c.e.s.service.RequestService - Найдено 0 заявок для клиента с ID 40
+2025-05-29 12:29:54 INFO  c.e.s.service.RequestService - Найдено 0 заявок для клиента с ID 40
+2025-05-29 12:30:00 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 0 окошек на 2025-05-29 в 12-30
+2025-05-29 12:30:00 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 12:30:08 INFO  c.e.s.service.RequestService - Найдено 0 заявок для клиента с ID 40
+2025-05-29 12:31:58 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 13108 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 12:31:58 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 12:31:58 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 12:32:04 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 6.795 seconds (process running for 7.561)
+2025-05-29 12:32:04 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 12:32:04 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 0 окошек на 2025-05-29 в 12-32
+2025-05-29 12:32:04 INFO  c.e.s.service.TimetableService - Первый запуск генерации расписания. Генерация 15 рабочих дней с 2025-05-29
+2025-05-29 12:32:04 INFO  c.e.s.service.TimetableService - Первичная генерация завершена. Создано 0 слотов
+2025-05-29 12:32:04 INFO  c.e.s.service.TimetableService - Итого создано 0 слотов
+2025-05-29 12:32:04 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T12:32:04.824205900
+2025-05-29 12:32:04 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 12:34:22 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 14072 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 12:34:22 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 12:34:22 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 12:34:27 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 6.308 seconds (process running for 6.795)
+2025-05-29 12:34:27 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 12:34:27 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 0 окошек на 2025-05-29 в 12-34
+2025-05-29 12:34:27 INFO  c.e.s.service.TimetableService - Первый запуск генерации расписания. Генерация 15 рабочих дней с 2025-05-29
+2025-05-29 12:34:27 INFO  c.e.s.service.TimetableService - Первичная генерация завершена. Создано 0 слотов
+2025-05-29 12:34:27 INFO  c.e.s.service.TimetableService - Итого создано 0 слотов
+2025-05-29 12:34:27 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T12:34:27.915272200
+2025-05-29 12:34:27 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 12:36:32 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 9640 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 12:36:32 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 12:36:32 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 12:36:37 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 5.564 seconds (process running for 6.011)
+2025-05-29 12:36:37 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 12:36:37 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 0 окошек на 2025-05-29 в 12-36
+2025-05-29 12:36:37 INFO  c.e.s.service.TimetableService - Первый запуск генерации расписания. Генерация 15 рабочих дней с 2025-05-29
+2025-05-29 12:36:37 INFO  c.e.s.service.TimetableService - Первичная генерация завершена. Создано 0 слотов
+2025-05-29 12:36:37 INFO  c.e.s.service.TimetableService - Итого создано 0 слотов
+2025-05-29 12:36:37 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T12:36:37.364727600
+2025-05-29 12:36:37 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 12:44:04 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 3440 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 12:44:04 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 12:44:04 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 12:44:10 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 6.407 seconds (process running for 6.864)
+2025-05-29 12:44:10 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 0 окошек на 2025-05-29 в 12-44
+2025-05-29 12:44:10 INFO  c.e.s.service.TimetableService - Первый запуск генерации расписания. Генерация 15 рабочих дней с 2025-05-29
+2025-05-29 12:44:10 INFO  c.e.s.service.TimetableService - Первичная генерация завершена. Создано 0 слотов
+2025-05-29 12:44:10 INFO  c.e.s.service.TimetableService - Итого создано 0 слотов
+2025-05-29 12:44:10 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T12:44:10.233099100
+2025-05-29 12:44:10 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 12:44:10 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 12:48:15 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 8200 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 12:48:15 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 12:48:15 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 12:48:21 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 6.106 seconds (process running for 6.596)
+2025-05-29 12:48:21 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 12:48:21 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 0 окошек на 2025-05-29 в 12-48
+2025-05-29 12:48:21 INFO  c.e.s.service.TimetableService - Первый запуск генерации расписания. Генерация 15 рабочих дней с 2025-05-29
+2025-05-29 12:48:21 INFO  c.e.s.service.TimetableService - Первичная генерация завершена. Создано 336 слотов
+2025-05-29 12:48:21 INFO  c.e.s.service.TimetableService - Итого создано 336 слотов
+2025-05-29 12:48:21 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T12:48:21.797576200
+2025-05-29 12:48:21 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 12:48:30 INFO  c.e.s.controller.AdminController - Сотрудник с ID 51 успешно удалён.
+2025-05-29 12:50:11 INFO  c.e.s.controller.AdminController - Сотрудник с ID 52 успешно удалён.
+2025-05-29 12:55:15 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 6700 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 12:55:15 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 12:55:15 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 12:55:21 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 6.147 seconds (process running for 6.593)
+2025-05-29 12:55:21 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 0 окошек на 2025-05-29 в 12-55
+2025-05-29 12:55:21 INFO  c.e.s.service.TimetableService - Первый запуск генерации расписания. Генерация 15 рабочих дней с 2025-05-29
+2025-05-29 12:55:21 INFO  c.e.s.service.TimetableService - Первичная генерация завершена. Создано 0 слотов
+2025-05-29 12:55:21 INFO  c.e.s.service.TimetableService - Итого создано 0 слотов
+2025-05-29 12:55:21 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T12:55:21.262038200
+2025-05-29 12:55:21 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 12:55:21 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 12:56:09 INFO  c.e.s.service.RequestService - Найдено 0 заявок для клиента с ID 42
+2025-05-29 12:56:23 INFO  c.e.s.service.RequestService - Найдено 0 заявок для клиента с ID 40
+2025-05-29 12:56:41 INFO  c.e.s.controller.AdminController - Клиент с ID 50 успешно удалён.
+2025-05-29 12:58:28 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 13060 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 12:58:28 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 12:58:28 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 12:58:33 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 5.97 seconds (process running for 6.741)
+2025-05-29 12:58:33 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 12:58:33 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 0 окошек на 2025-05-29 в 12-58
+2025-05-29 12:58:33 INFO  c.e.s.service.TimetableService - Первый запуск генерации расписания. Генерация 15 рабочих дней с 2025-05-29
+2025-05-29 12:58:33 INFO  c.e.s.service.TimetableService - Первичная генерация завершена. Создано 336 слотов
+2025-05-29 12:58:33 INFO  c.e.s.service.TimetableService - Итого создано 336 слотов
+2025-05-29 12:58:33 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T12:58:33.716208600
+2025-05-29 12:58:33 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 13:00:00 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 13:00:00 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 9 окошек на 2025-05-29 в 13-00
+2025-05-29 13:02:14 INFO  c.e.s.controller.AdminController - Клиент с ID 40 успешно удалён.
+2025-05-29 13:02:17 INFO  c.e.s.controller.AdminController - Клиент с ID 42 успешно удалён.
+2025-05-29 13:08:05 INFO  c.e.s.service.RequestService - Найдено 0 заявок для клиента с ID 58
+2025-05-29 13:08:21 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 5480 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 13:08:21 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 13:08:21 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 13:08:27 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 6.13 seconds (process running for 6.928)
+2025-05-29 13:08:27 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 9 окошек на 2025-05-29 в 13-08
+2025-05-29 13:08:27 INFO  c.e.s.service.TimetableService - Удалены слоты до 2025-05-29 (не включительно): 0 записей
+2025-05-29 13:08:27 INFO  c.e.s.service.TimetableService - Итого создано 672 слотов
+2025-05-29 13:08:27 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T13:08:27.889940900
+2025-05-29 13:08:27 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 13:08:27 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 13:08:35 INFO  c.e.s.service.RequestService - Найдено 0 заявок для клиента с ID 57
+2025-05-29 13:09:49 INFO  c.e.s.service.RequestService - Найдено 0 заявок для клиента с ID 57
+2025-05-29 13:10:31 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 3588 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 13:10:31 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 13:10:31 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 13:10:38 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 8.461 seconds (process running for 9.279)
+2025-05-29 13:10:38 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 27 окошек на 2025-05-29 в 13-10
+2025-05-29 13:10:38 INFO  c.e.s.service.TimetableService - Удалены слоты до 2025-05-29 (не включительно): 0 записей
+2025-05-29 13:10:39 INFO  c.e.s.service.TimetableService - Итого создано 0 слотов
+2025-05-29 13:10:39 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T13:10:39.082927400
+2025-05-29 13:10:39 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 13:10:39 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 13:12:14 INFO  c.e.s.service.RequestService - Найдено 0 заявок для клиента с ID 56
+2025-05-29 13:13:59 INFO  c.e.s.service.RequestService - Найдено 0 заявок для клиента с ID 56
+2025-05-29 13:19:26 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 12448 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 13:19:26 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 13:19:26 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 13:19:33 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 7.681 seconds (process running for 8.104)
+2025-05-29 13:19:33 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 27 окошек на 2025-05-29 в 13-19
+2025-05-29 13:19:33 INFO  c.e.s.service.TimetableService - Удалены слоты до 2025-05-29 (не включительно): 0 записей
+2025-05-29 13:19:34 INFO  c.e.s.service.TimetableService - Итого создано 0 слотов
+2025-05-29 13:19:34 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T13:19:34.106300500
+2025-05-29 13:19:34 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 13:19:34 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 13:19:43 INFO  c.e.s.service.RequestService - Найдено 0 заявок для клиента с ID 57
+2025-05-29 13:20:07 INFO  c.e.s.service.RequestService - Найдено 1 заявок для клиента с ID 57
+2025-05-29 13:21:13 INFO  c.e.s.service.RequestService - Найдено 2 заявок для клиента с ID 57
+2025-05-29 13:21:37 INFO  c.e.s.service.RequestService - Найдено 3 заявок для клиента с ID 57
+2025-05-29 13:21:49 INFO  c.e.s.service.RequestService - Заявка ID 102 отменена. 1 слотов освобождено.
+2025-05-29 13:22:00 INFO  c.e.s.service.RequestService - Найдено 3 заявок для клиента с ID 57
+2025-05-29 13:22:07 INFO  c.e.s.service.RequestService - Найдено 3 заявок для клиента с ID 57
+2025-05-29 13:23:58 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 4700 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 13:23:58 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 13:23:58 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 13:24:04 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 6.208 seconds (process running for 6.634)
+2025-05-29 13:24:04 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 13:24:04 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 27 окошек на 2025-05-29 в 13-24
+2025-05-29 13:24:04 INFO  c.e.s.service.TimetableService - Удалены слоты до 2025-05-29 (не включительно): 0 записей
+2025-05-29 13:24:04 INFO  c.e.s.service.TimetableService - Итого создано 0 слотов
+2025-05-29 13:24:04 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T13:24:04.449430
+2025-05-29 13:24:04 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 13:24:12 INFO  c.e.s.service.RequestService - Найдено 3 заявок для клиента с ID 57
+2025-05-29 13:24:27 INFO  c.e.s.service.RequestService - Найдено 3 заявок для клиента с ID 57
+2025-05-29 13:30:00 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 30 окошек на 2025-05-29 в 13-30
+2025-05-29 13:30:00 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 14:00:00 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 14:00:00 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 33 окошек на 2025-05-29 в 14-00
+2025-05-29 14:08:20 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 14248 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 14:08:20 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 14:08:20 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 14:08:27 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 8.416 seconds (process running for 9.332)
+2025-05-29 14:08:28 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 14:08:28 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 33 окошек на 2025-05-29 в 14-08
+2025-05-29 14:08:28 INFO  c.e.s.service.TimetableService - Удалены слоты до 2025-05-29 (не включительно): 0 записей
+2025-05-29 14:08:28 INFO  c.e.s.service.TimetableService - Итого создано 0 слотов
+2025-05-29 14:08:28 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T14:08:28.338207800
+2025-05-29 14:08:28 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 14:08:48 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 8492 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 14:08:48 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 14:08:48 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 14:08:55 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 7.346 seconds (process running for 7.864)
+2025-05-29 14:08:55 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 33 окошек на 2025-05-29 в 14-08
+2025-05-29 14:08:55 INFO  c.e.s.service.TimetableService - Удалены слоты до 2025-05-29 (не включительно): 0 записей
+2025-05-29 14:08:55 INFO  c.e.s.service.TimetableService - Итого создано 0 слотов
+2025-05-29 14:08:55 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T14:08:55.361543500
+2025-05-29 14:08:55 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 14:08:55 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 14:09:07 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 8532 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 14:09:07 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 14:09:07 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 14:09:13 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 6.185 seconds (process running for 6.606)
+2025-05-29 14:09:13 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 33 окошек на 2025-05-29 в 14-09
+2025-05-29 14:09:13 INFO  c.e.s.service.TimetableService - Удалены слоты до 2025-05-29 (не включительно): 0 записей
+2025-05-29 14:09:13 INFO  c.e.s.service.TimetableService - Итого создано 0 слотов
+2025-05-29 14:09:13 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T14:09:13.614834200
+2025-05-29 14:09:13 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 14:09:13 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 14:10:00 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 12700 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 14:10:00 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 14:10:00 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 14:10:06 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 6.188 seconds (process running for 6.648)
+2025-05-29 14:10:06 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 33 окошек на 2025-05-29 в 14-10
+2025-05-29 14:10:06 INFO  c.e.s.service.TimetableService - Удалены слоты до 2025-05-29 (не включительно): 0 записей
+2025-05-29 14:10:06 INFO  c.e.s.service.TimetableService - Итого создано 0 слотов
+2025-05-29 14:10:06 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T14:10:06.459008200
+2025-05-29 14:10:06 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 14:10:06 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 14:11:06 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 5484 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 14:11:06 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 14:11:06 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 14:11:14 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 9.393 seconds (process running for 9.947)
+2025-05-29 14:11:14 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 14:11:14 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 33 окошек на 2025-05-29 в 14-11
+2025-05-29 14:11:15 INFO  c.e.s.service.TimetableService - Удалены слоты до 2025-05-29 (не включительно): 0 записей
+2025-05-29 14:11:15 INFO  c.e.s.service.TimetableService - Итого создано 0 слотов
+2025-05-29 14:11:15 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T14:11:15.208241600
+2025-05-29 14:11:15 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 14:11:50 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 12844 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 14:11:50 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 14:11:50 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 14:11:56 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 6.194 seconds (process running for 6.631)
+2025-05-29 14:11:56 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 33 окошек на 2025-05-29 в 14-11
+2025-05-29 14:11:56 INFO  c.e.s.service.TimetableService - Удалены слоты до 2025-05-29 (не включительно): 0 записей
+2025-05-29 14:11:56 INFO  c.e.s.service.TimetableService - Итого создано 0 слотов
+2025-05-29 14:11:56 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T14:11:56.852183400
+2025-05-29 14:11:56 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 14:11:56 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 14:13:20 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 13180 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 14:13:20 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 14:13:20 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 14:13:29 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 8.982 seconds (process running for 9.46)
+2025-05-29 14:13:29 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 33 окошек на 2025-05-29 в 14-13
+2025-05-29 14:13:29 INFO  c.e.s.service.TimetableService - Удалены слоты до 2025-05-29 (не включительно): 0 записей
+2025-05-29 14:13:29 INFO  c.e.s.service.TimetableService - Итого создано 0 слотов
+2025-05-29 14:13:29 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T14:13:29.449662600
+2025-05-29 14:13:29 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 14:13:29 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 14:29:07 INFO  c.e.s.service.RequestService - Найдено 3 заявок для клиента с ID 57
+2025-05-29 14:30:00 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 36 окошек на 2025-05-29 в 14-30
+2025-05-29 14:30:00 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 14:37:09 INFO  c.e.s.service.RequestService - Найдено 0 заявок для клиента с ID 56
+2025-05-29 14:37:10 INFO  c.e.s.service.RequestService - Найдено 3 заявок для клиента с ID 57
+2025-05-29 14:37:22 INFO  c.e.s.service.RequestService - Найдено 0 заявок для клиента с ID 58
+2025-05-29 14:37:23 INFO  c.e.s.service.RequestService - Найдено 3 заявок для клиента с ID 57
+2025-05-29 14:37:26 INFO  c.e.s.service.RequestService - Найдено 3 заявок для клиента с ID 57
+2025-05-29 14:37:28 INFO  c.e.s.service.RequestService - Найдено 3 заявок для клиента с ID 57
+2025-05-29 14:37:41 INFO  c.e.s.service.RequestService - Найдено 3 заявок для клиента с ID 57
+2025-05-29 14:38:34 INFO  c.e.s.service.RequestService - Найдено 3 заявок для клиента с ID 57
+2025-05-29 14:38:46 INFO  c.e.s.service.RequestService - Найдено 3 заявок для клиента с ID 57
+2025-05-29 14:42:56 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 6700 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 14:42:56 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 14:42:56 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 14:43:04 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 9.643 seconds (process running for 10.215)
+2025-05-29 14:47:43 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 3908 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 14:47:43 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 14:47:43 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 14:47:52 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 9.562 seconds (process running for 10.059)
+2025-05-29 14:47:52 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 14:47:52 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 36 окошек на 2025-05-29 в 14-47
+2025-05-29 14:47:52 INFO  c.e.s.service.TimetableService - Удалены слоты до 2025-05-29 (не включительно): 0 записей
+2025-05-29 14:47:52 INFO  c.e.s.service.TimetableService - Итого создано 0 слотов
+2025-05-29 14:47:52 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T14:47:52.994524800
+2025-05-29 14:47:53 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 14:48:14 INFO  c.e.s.service.RequestService - Найдено 3 заявок для клиента с ID 57
+2025-05-29 14:48:24 INFO  c.e.s.service.RequestService - Найдено 0 заявок для клиента с ID 56
+2025-05-29 14:48:48 INFO  c.e.s.service.RequestService - Найдено 1 заявок для клиента с ID 56
+2025-05-29 14:54:41 INFO  c.e.s.service.RequestService - Найдено 3 заявок для клиента с ID 57
+2025-05-29 14:56:31 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 13232 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 14:56:31 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 14:56:31 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 14:56:36 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 6.006 seconds (process running for 6.463)
+2025-05-29 14:56:36 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 36 окошек на 2025-05-29 в 14-56
+2025-05-29 14:56:36 INFO  c.e.s.service.TimetableService - Удалены слоты до 2025-05-29 (не включительно): 0 записей
+2025-05-29 14:56:36 INFO  c.e.s.service.TimetableService - Итого создано 0 слотов
+2025-05-29 14:56:36 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T14:56:36.851795400
+2025-05-29 14:56:36 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 14:56:36 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 14:58:33 INFO  c.e.s.service.RequestService - Найдено 3 заявок для клиента с ID 57
+2025-05-29 15:00:00 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 15:00:00 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 39 окошек на 2025-05-29 в 15-00
+2025-05-29 15:07:17 INFO  c.e.s.SalonServiceApplication - Starting SalonServiceApplication using Java 17.0.14 with PID 7684 (D:\idea_projects\salon-service\salon-service\target\classes started by Denis in D:\idea_projects\salon-service)
+2025-05-29 15:07:17 DEBUG c.e.s.SalonServiceApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-29 15:07:17 INFO  c.e.s.SalonServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-29 15:07:23 INFO  c.e.s.SalonServiceApplication - Started SalonServiceApplication in 6.623 seconds (process running for 7.092)
+2025-05-29 15:07:23 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 39 окошек на 2025-05-29 в 15-07
+2025-05-29 15:07:24 INFO  c.e.s.service.TimetableService - Удалены слоты до 2025-05-29 (не включительно): 0 записей
+2025-05-29 15:07:24 INFO  c.e.s.service.TimetableService - Итого создано 0 слотов
+2025-05-29 15:07:24 INFO  c.e.s.service.TimetableService - Расписание обновлено в 2025-05-29T15:07:24.196654800
+2025-05-29 15:07:24 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.
+2025-05-29 15:07:24 INFO  c.e.s.config.PasswordHashInitializer - Все пароли уже были захешированы ранее.
+2025-05-29 15:30:00 INFO  c.e.s.service.TimetableService - Закрыты по истечению времени 42 окошек на 2025-05-29 в 15-30
+2025-05-29 15:30:00 INFO  c.e.s.service.RequestService - Статусы всех заявок обновлены.

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Личный кабинет - Парикмахерская "Чик-чик"</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <link rel="stylesheet" th:href="@{/css/stylesEmp.css}">
+    <style>
+        /* Анимация плавного перехода */
+        .page {
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .page.loaded {
+            opacity: 1;
+        }
+
+        /* Стиль для страницы и body */
+        html, body {
+            height: 100%;
+            overflow-y: auto; /* Включаем вертикальную прокрутку */
+            font-family: Helvetica, Arial, sans-serif;
+            color: #020202;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #ffffff;
+        }
+
+        /* Стиль для ссылок навигации */
+        nav a.nav-link {
+            color: #020202;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a.nav-link:hover {
+            background-color: #F9DAD8;
+            border-radius: 5px;
+            color: #FC0202;
+        }
+
+        /* Стиль для главного контента */
+        main {
+            flex-grow: 1;
+            padding: 40px 30px;
+            background-color: #f0f0f0;
+        }
+
+        /* Контейнеры */
+        .header-container, .nav-container, .button-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Модальные окна */
+        .modal-content {
+            border-radius: 1rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+
+        .modal-header {
+            background-color: #EB7B83;
+            border-radius: 1rem 1rem 0 0;
+            color: #fff;
+        }
+
+        .modal-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .modal-body {
+            padding: 1.5rem;
+        }
+
+        .modal-footer {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            padding: 1rem;
+        }
+
+        /* Кнопки */
+        #successModal .btn-primary, .btn-close {
+            background-color: #EB7B83;
+            border-color: #EB7B83;
+            color: white;
+        }
+
+        #successModal .btn-primary:hover, .btn-close:hover {
+            background-color: #F9DAD8;
+            color: #020202;
+            border-color: #F9DAD8;
+        }
+
+        .btn-equal-size-full {
+            width: 90%;
+        }
+        .cancel-btn {
+            background-color: #f2f2f2;
+            border-radius: 0.5rem;
+            border: none;
+            font-weight: bold;
+            font-size: 1rem;
+            padding: 8px 15px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .cancel-btn:hover {
+            background-color: #e0e0e0;
+            color: #020202;
+        }
+
+        /* Тосты */
+        .toast {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1050;
+            min-width: 250px;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .toast-success {
+            background-color: #28a745;
+            color: #fff;
+        }
+
+        .toast-error {
+            background-color: #dc3545;
+            color: #fff;
+        }
+
+        .toast .toast-body {
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+        }
+
+        .toast .toast-body i {
+            margin-right: 10px;
+        }
+
+        /* Карты */
+        .card {
+            border: none;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+        }
+
+        .card-header, .card-title {
+            background-color: #f9dad8;
+            border-radius: 0.75rem 0.75rem 0 0;
+        }
+
+        /* Таблицы */
+        table {
+            table-layout: auto;
+            width: 100%;
+            margin-top: 20px;
+            border: 1px solid black;
+        }
+
+        table th, table td {
+            white-space: nowrap;   /* запрещает перенос строк */
+            overflow: hidden;      /* скрывает лишнее */
+            text-overflow: ellipsis; /* добавляет "..." если текст не влезает */
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .table th {
+            background-color: #EB7B83; /* Цвет фона */
+            color: white; /* Белый цвет текста */
+            font-weight: bold; /* Жирный шрифт */
+            border-bottom: 2px solid #dee2e6; /* Линия снизу */
+        }
+
+        table tr:hover {
+            background-color: #F9DAD8;
+        }
+
+        table tr:nth-child(even) td {
+            background-color: #f0f0f0;
+        }
+
+        .spacer-row td {
+            background-color: white !important;
+            border: none !important;
+            height: 1rem;
+        }
+
+        /* Редактирование отзыва */
+        .btn-feedback-edit {
+            padding: 2px 8px;
+            font-size: 0.7rem;
+            border-radius: 4px;
+            background-color: #EB7B83;
+            color: white;
+            border: none;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .btn-feedback-edit:hover {
+            background-color: #F9DAD8;
+            color: #020202;
+        }
+
+        /* Поля ввода для отзыва */
+        .feedback-textarea,
+        textarea.editable {
+            resize: vertical;
+            font-size: 0.9rem;
+            background-color: #fff0f1;
+            border: 1px solid #EB7B83;
+            padding: 8px;
+            border-radius: 0.5rem;
+            box-sizing: border-box;
+            min-height: 60px;
+            height: 60px;
+        }
+
+        textarea.editable:focus {
+            min-height: 60px;
+            height: 60px;
+            border-color: #FC0202;
+            outline: none;
+        }
+
+        /* Иконки */
+        .bi-x-circle:hover {
+            color: #EB7B83;
+        }
+
+        .bi-x-circle {
+            color: black;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <div th:replace="~{lkemp/headcontainer :: headcontainer}"></div>
+    <div id="masterContainer" data-master-id="${masterId}">
+        <div class="container my-3">
+            <div class="card p-4">
+                <div id="scheduleContainer" th:data-master-id="${masterId}">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>Расписание</h3>
+                            <th:block th:if="${isAdmin}">
+                            <label for="selectMaster" class="form-label h5 mb-2">Выберите мастера</label>
+                            <select id="selectMaster" class="form-select mb-2" aria-label="Выбор мастера">
+                                <option value="" selected>Выберите мастера</option>
+                                <!-- Перебираем список мастеров и выводим их в выпадающий список -->
+                                <option th:each="master : ${employees}"
+                                        th:value="${master.id}" th:text="${master.name} + ' ' + ${master.surname}"></option>
+                            </select>
+                            </th:block>
+                            <h5 class="mt-2 mb-1">Дни для записи</h5>
+                            <div id="dateButtons" class="d-flex flex-wrap mt-2 fw-semibold gap-2"></div>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="mt-2 mb-1">Временные окошки для записи</h5>
+                            <div class="mb-3">
+                                <h5 class="mt-4 mb-1">Обозначения</h5>
+                                <div class="d-flex align-items-center mb-1">
+                                    <img src="/static/slotFree.png" alt="Свободно" style="width: 76px; height: auto; margin-right: 0.25rem;">
+                                    <span>Свободен — доступен для записи</span>
+                                </div>
+                                <div class="d-flex align-items-center mb-1">
+                                    <img src="/static/slotTaken.png" alt="Занято" style="width: 77px; height: auto; margin-right: 0.25rem;">
+                                    <span>Занят — недоступен для записи</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <img src="/static/slotOld.png" alt="Истёк" style="width: 75px; height: auto; margin-right: 0.35rem;">
+                                    <span>Истёк — время слота прошло</span>
+                                </div>
+                            </div>
+                            <h5 class="mt-2 mb-1">Список окошек</h5>
+                            <div id="slotButtons" class="d-flex flex-wrap mt-2 fw-semibold gap-1"></div>
+                            <p id="selectDateMessage" class="text-muted" style="font-style: italic;">сначала выберите дату...</p>
+                            <button id="blockSlotsBtn" class="btn btn-primary btn-custom mt-3" style="background-color: #D32F2F; display: none;">Заблокировать окошки</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/js/script.js"></script>
+<script src="/js/employee_script.js"></script>
+<script src="/js/animation.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+/* Анимация плавного перехода */
+.page {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.page.loaded {
+    opacity: 1;
+}
+
+body, html {
+    background-color: #eaeaea;
+    color: #020202;
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    height: 100%;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+}
+
+header {
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    flex-shrink: 0;
+}
+
+.header-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #3a3a3a;
+    border-top: 1px solid #3a3a3a;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px 10px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+footer a {
+    color: #FFCDD2;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.background-container {
+    align-items: center;
+    background: url('/index.jpeg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.background-container::before {
+    background-color: rgba(0, 0, 0, 0.4);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.welcome-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    padding: 40px 60px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.welcome-box h1 {
+    color: #202020;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+nav a.nav-link {
+    background-color: transparent;
+    border-radius: 0;
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s;
+}
+
+nav a.nav-link:hover {
+    background-color: transparent;
+    box-shadow: none;
+    color: #D32F2F;
+}
+
+.nav-container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.btn-custom {
+    background-color: #D32F2F;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #E57373;
+    color: #ffffff;
+}
+
+.btn-custom-nav {
+    background-color: #D32F2F;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-custom-nav:hover {
+    background-color: #D32F2F;
+    color: black;
+}
+
+.button-container {
+    border-left: 2px solid #f4f4f4b3;
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+}
+
+.btn-large-booking {
+    font-size: 1.4rem;
+}
