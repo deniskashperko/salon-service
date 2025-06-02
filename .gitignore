@@ -1,38 +1,63 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+
+# Java
+*.class
+*.log
+
+# Gradle
+.gradle/
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven
+target/
+
 # IntelliJ IDEA
 .idea/
 *.iml
+*.iws
+*.ipr
 
-# Built application files
-*.apk
-*.ap_
+# VS Code
+.vscode/
 
-# Files for the Dalvik VM
-*.dex
+# OS
+.DS_Store
+Thumbs.db
 
-# Java class files
-*.class
-
-# Generated files
-bin/
-gen/
-
-# Gradle files
-.gradle/
-build/
-
-# Local configuration file (sdk path, etc)
-local.properties
-.properties
-
-#Log Files
-*.log
+# Logs
 logs/
+*.log
+*.tmp
 
-project.properties
-*.properties
-project.properties
+# Environment & secrets
+.env
+*.env
+*.key
+*.pem
+*.crt
+*.cert
 
-/out/
+# Application properties and YAML
+**/application.properties
+**/application.yml
+**/application-dev.properties
+**/application-prod.properties
+
+# Test reports
+/test-output/
+
+# Temp
+tmp/
+temp/
+
+# Node (if frontend present)
+node_modules/
+dist/
+
+# Docker
+*.pid
+*.seed
